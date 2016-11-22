@@ -5,7 +5,7 @@
 * Encoding: US-ASCII
 * Line Ending: Unix `\n`
 * Line Length: 120
-* Indent Brace Style: Allman/BSD style
+* Indent Brace Style: [Allman/BSD style](https://en.wikipedia.org/wiki/Indent_style#Allman_style)
 * Indent Style: Spaces
 * Indent Size: 4
 * CamelCase or snake_case: snake_case
@@ -288,7 +288,6 @@ project/tools        # useful tools/scripts, e.g. packaging, config files/genera
 * https://github.com/github/gitignore/blob/master/C.gitignore
 * https://google.github.io/styleguide/cppguide.html
 * http://www.misra-c.com
-* https://en.wikipedia.org/wiki/Indent_style
 * https://en.wikipedia.org/wiki/CamelCase
 * https://en.wikipedia.org/wiki/Snake_case
 * https://en.wikipedia.org/wiki/Const_%28computer_programming%29
