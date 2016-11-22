@@ -256,21 +256,17 @@ project/submodules   # Git submodules
 project/tools        # useful tools/scripts, e.g. packaging, config files/generator for IDE
 ```
 
-## Tools
+## Tools, Links, Further Reading
 
 * Auto Formatter & Code Templates functionality of IDEs (e.g. Eclipse, CLion)
-* [Editorconfig](http://editorconfig.org): maintains consistent coding styles between different editors and IDEs
-* [git autocrlf & whitespace](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace): check correct line endings and spacing
-* [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks): call scripts before a commit
 * [cppcheck](http://cppcheck.sourceforge.net): static code analysis
 * [Cpplint](https://en.wikipedia.org/wiki/Cpplint): code style check
 * [Doxygen](http://www.doxygen.org): API documentation
-
-
-## Further Reading
-
-* https://github.com/google/styleguide
-* https://google-styleguide.googlecode.com/svn/trunk/cppguide.html
+* [Editorconfig](http://editorconfig.org): maintains consistent coding styles between different editors and IDEs
+* [git autocrlf & whitespace](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace): check correct line endings and spacing
+* [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks): call scripts before a commit
+* https://github.com/github/gitignore/blob/master/C.gitignore
+* https://google.github.io/styleguide/cppguide.html
 * http://www.misra-c.com
 * https://en.wikipedia.org/wiki/Indent_style
 * https://en.wikipedia.org/wiki/CamelCase
