@@ -2,8 +2,6 @@
 
 ## Code Format
 
-A consistent code format reduces the diff size between commits, whereby the changeset is reduced to code changes only. Furthermore it is required for development on different systems, i.e. Unix and Windows.
-
 * Encoding: US-ASCII
 * Line Ending: Unix `\n`
 * Line Length: 120
@@ -14,9 +12,6 @@ A consistent code format reduces the diff size between commits, whereby the chan
 
 
 ## Coding Guidelines
-
-Coding guidelines should improve readability/consistency, compatibility and code quality.
-Furthermore it is a collection of project related best practices.
 
 ### Functions: Use _self_ as "this" Pointer
 
@@ -73,6 +68,31 @@ static int _bar;
 * principle of information hiding & restrict access
 * avoid naming conflicts
 * readability & consistency
+
+
+### Variables/Parameter: Suffix for Units
+
+Use a suffix to indicate an unit of a variable, e.g. for seconds or millimeters.
+
+*Example:*
+
+```c
+size_t timeout_ms = 100;  // timeout in millisecond
+
+/**
+ * Calculate potential energy.
+ *
+ * @param weight_kg  weight in kilogram
+ * @param height_m   height in meter
+ * @return potential energy in Joule
+ */
+double potential_energy(double weight_kg, double height_m);
+```
+
+*Pros:*
+
+* units are visible in API
+* units are known without reading documentation
 
 
 ### Includes
