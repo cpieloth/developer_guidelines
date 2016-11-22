@@ -4,7 +4,7 @@
 
 A consistent code format reduces the diff size between commits, whereby the changeset is reduced to code changes only. Furthermore it is required for development on different systems, i.e. Unix and Windows.
 
-* Encoding: ASCII
+* Encoding: US-ASCII
 * Line Ending: Unix `\n`
 * Line Length: 120
 * Indent Brace Style: Allman/BSD style
