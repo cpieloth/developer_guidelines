@@ -11,14 +11,14 @@
 * CamelCase/snake_case: snake_case
 * Loops & conditions: put `; do` and `; then` on the same line
 * Function: don't use the keyword `function`, use `func()` instead
-* Variable access: prefer `\${var}` over `\$var`
+* Variable access: prefer `${var}` over `$var`
 
 ## Coding Guidelines
 
 ### Scripting, Top-level Script, Entry Points
 
 * top-level script must use the shebang: `#!/usr/bin/env bash`
-* top-level script should use a main function and call `main "\$@"` on last line
+* top-level script should use a main function and call `main "$@"` on last line
 * Example:
 
 ```bash
@@ -29,7 +29,7 @@ main()
     # code
 }
 
-main "\$@"
+main "$@"
 ```
 
 ## Documentation
