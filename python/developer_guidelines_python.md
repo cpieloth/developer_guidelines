@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
 * use `print()` only for CLI output
 * use `logging` module for everything else, i.e. API/library
-* use "new style" string formatting: see https://pyformat.info/[PyFormat]
+* use "new style" string formatting: see [PyFormat](https://pyformat.info/)
 
 ```python
 ## logging

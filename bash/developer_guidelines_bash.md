@@ -53,5 +53,4 @@ add()
 
 ## Tools, Links, Further Reading
 
-* [Allman/BSD style](https://en.wikipedia.org/wiki/Indent_style#Allman_style)
 * [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml)

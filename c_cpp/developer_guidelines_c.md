@@ -283,11 +283,7 @@ project/tools        # useful tools/scripts, e.g. packaging, config files/genera
 * [Cpplint](https://en.wikipedia.org/wiki/Cpplint): code style check
 * [Doxygen](http://www.doxygen.org): API documentation
 * [Editorconfig](http://editorconfig.org): maintains consistent coding styles between different editors and IDEs
-* [git autocrlf & whitespace](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace): check correct line endings and spacing
-* [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks): call scripts before a commit
 * https://github.com/github/gitignore/blob/master/C.gitignore
 * https://google.github.io/styleguide/cppguide.html
 * http://www.misra-c.com
-* https://en.wikipedia.org/wiki/CamelCase
-* https://en.wikipedia.org/wiki/Snake_case
 * https://en.wikipedia.org/wiki/Const_%28computer_programming%29

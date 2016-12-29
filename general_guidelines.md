@@ -64,5 +64,9 @@ Automate your workflow as much as possible. The following areas should be automa
 
 ## Further Reading
 
-* [Google Style Guides](https://github.com/google/styleguide)
 * [EditorConfig](http://editorconfig.org)
+* [git autocrlf & whitespace](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace): check correct line endings and spacing
+* [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks): call scripts before a commit
+* [Google Style Guides](https://github.com/google/styleguide)
+* https://en.wikipedia.org/wiki/CamelCase
+* https://en.wikipedia.org/wiki/Snake_case
