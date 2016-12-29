@@ -88,5 +88,7 @@ project/setup.py       # setup.py for distutils/packaging
 * [PyFormat](https://pyformat.info/): "new style" string formatting
 * [Sphinx](http://www.sphinx-doc.org): API documentation for Python, like Doxygen
 * [Virtualenv](https://virtualenv.pypa.io): tool to create isolated Python environments
+* https://github.com/github/gitignore/blob/master/Python.gitignore
+* https://google.github.io/styleguide/pyguide.html
 
 Run pylint, pep8 and pep257 on your code! Use provided targets by `Makefile`.
