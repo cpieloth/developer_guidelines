@@ -26,7 +26,7 @@ the task of the caller
 
 ```shell
 find_package(Boost REQUIRED)
-add_library(my_module SHARED ${MY_MODULE_SOURCES})
+add_library(my_module SHARED ${my_module_sources})
 # For resolving/download Boost (if such a mechanism is provided):
 # add_dependencies(my_module ${Boost_TARGET})
 target_include_directories(my_module SYSTEM ${Boost_INCLUDE_DIRS})
@@ -46,7 +46,7 @@ target_link_libraries(my_module ${Boost_Log_LIBRARY_RELEASE})
  * use `list` for lists, e.g. `list(APPEND sources foo.c bar.c)`
  * use `list(APPEND ...)` and not `set(...)` to add values to a list
 * Arguments
- * put arguments in double quotes, e.g. `my_func("foo" "${MY_SOURCES}")`
+ * put arguments in double quotes, e.g. `my_func("foo" "${my_sources}")`
  * except variable names, e.g. `list(APPEND my_sources ...)`, or variables which should be expanded
 
 
