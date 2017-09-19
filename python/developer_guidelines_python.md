@@ -69,13 +69,13 @@ A common and clear file structure for Python projects:
 project/               # project root
 project/build/         # temp. created for artifacts
 project/doc/           # documentation in a text document format, e.g. Markdown or AsciiDoc
-project/project/       # python API of the project and namespace
+project/project/       # python API of the project and namespace, i.e. the actual source code folder
 project/tests/         # unit tests
-project/tools/         # external tools, files for pylint, sphinx, ...
+project/tools/         # external tools and configuration files for them, ...
+project/venv/          # temp. created virtual environment
 project/.editorconfig  # basic code style definition
-project/Makefile       # Makefile to generate HTML documentation, trigger tests, ...
 project/project.py     # entry point/top-level script for developers
-project/setup.py       # setup.py for distutils/packaging
+project/setup.py       # setup.py for distutils/packaging, generate HTML documentation, trigger tests, ...
 ```
 
 
@@ -84,6 +84,7 @@ project/setup.py       # setup.py for distutils/packaging
 * [Editorconfig](http://editorconfig.org): maintains consistent coding styles between different editors and IDEs
 * [PEP 0008, pep8](https://www.python.org/dev/peps/pep-0008/): style guide for python code and style guide checker module
 * [PEP 0257, pep257](https://www.python.org/dev/peps/pep-0257/): Docstring Conventions and python docstring style checker module
+* [Project Templates](https://github.com/cpieloth/project_templates): Templates for software project, e.g. file structure, build-management and more
 * [Pylint](https://www.pylint.org/): code analysis for Python
 * [PyFormat](https://pyformat.info/): "new style" string formatting
 * [Sphinx](http://www.sphinx-doc.org): API documentation for Python, like Doxygen
@@ -91,4 +92,4 @@ project/setup.py       # setup.py for distutils/packaging
 * https://github.com/github/gitignore/blob/master/Python.gitignore
 * https://google.github.io/styleguide/pyguide.html
 
-Run pylint, pep8 and pep257 on your code! Use provided targets by `Makefile`.
+Run pylint, pep8 and pep257 on your code! Use provided targets by `setup.py`.
