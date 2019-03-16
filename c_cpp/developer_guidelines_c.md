@@ -285,5 +285,6 @@ project/tools        # useful tools/scripts, e.g. packaging, config files/genera
 * [Editorconfig](http://editorconfig.org): maintains consistent coding styles between different editors and IDEs
 * https://github.com/github/gitignore/blob/master/C.gitignore
 * https://google.github.io/styleguide/cppguide.html
+* http://isocpp.github.io/CppCoreGuidelines/
 * http://www.misra-c.com
 * https://en.wikipedia.org/wiki/Const_%28computer_programming%29
