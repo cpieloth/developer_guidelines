@@ -1,5 +1,6 @@
 # Coding style with EditorConfig
 # Plugin for your editor/IDE on http://EditorConfig.org
+# C/C++ properties: https://docs.microsoft.com/en-us/visualstudio/ide/cpp-editorconfig-properties?view=vs-2019
 
 # top-most EditorConfig file
 root = true
